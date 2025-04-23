@@ -16,6 +16,39 @@ a {
     color: inherit;
 }
 
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    display: block;
+}
+
+.navbar ul li a:hover {
+    background-color: #ff6f61;
+    border-radius: 5px;
+}
+
 /* Hero Section */
 .hero {
     display: flex;
@@ -24,6 +57,7 @@ a {
     height: 100vh;
     background-color: #add8e6; /* Light blue background */
     text-align: center;
+    margin-top: 60px; /* Push content below the navbar */
 }
 
 .hero-content {
