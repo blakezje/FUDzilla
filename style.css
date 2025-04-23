@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #add8e6; /* Light blue background */
+    background-color: #1e90ff; /* Erősebb kék háttér */
     color: #333;
 }
 
@@ -55,7 +55,7 @@ a {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #add8e6; /* Light blue background */
+    background-color: #1e90ff; /* Erősebb kék háttér */
     text-align: center;
     margin-top: 60px; /* Push content below the navbar */
 }
