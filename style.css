@@ -19,22 +19,24 @@ a {
 /* Navigation Bar */
 .navbar {
     background-color: #333;
-    padding: 10px;
+    padding: 15px 0; /* Növeljük a paddingot, hogy nagyobb legyen a tér */
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 1000;
+    text-align: center; /* Középre igazítjuk a fülöket */
 }
 
 .navbar ul {
     list-style-type: none;
-    display: flex;
-    justify-content: center;
+    display: flex; /* Flexbox használata a fülök elrendezésére */
+    justify-content: center; /* Középre igazítjuk a fülöket */
+    padding: 0;
 }
 
 .navbar ul li {
-    margin: 0 20px;
+    margin: 0 20px; /* Távolság a fülök között */
 }
 
 .navbar ul li a {
